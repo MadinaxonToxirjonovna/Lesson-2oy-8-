@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.animation_card3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(60, 255, 0);
+    animation-name: animation3;
+    animation-duration: 4s;
+    margin-top: 20px;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    animation: animation3 5s infinite linear;
+    position: relative;
+}
+
+@keyframes animation3 {
+    0%{
+        background-color: rebeccapurple;
+        transform: rotate(85deg);
+        left: 0%;
+
+    }
+
+    10%{
+        background-color: red;
+        transform: rotate(100deg);
+        left: 15%;
+    }
+
+    15%{
+        background-color: tan;
+        transform: rotate(150deg);
+        left: 25%;
+    }
+
+    20%{
+        background-color:teal;
+        transform: rotate(200deg);
+        left: 35%;
+    }
+
+    25%{
+        background-color: thistle;
+        transform: rotate(250deg);
+        left: 45%;
+    }
+
+    30%{
+        background-color: tomato;
+        transform: rotate(300deg);
+        left:55%;
+    }
+
+    35%{
+        background-color: turquoise;
+        transform: rotate(350deg);
+        left:65%;
+    }
+
+    40%{
+        background-color: yellow;
+        transform: rotate(400deg);
+        left:75%;
+    }
+
+    45%{
+        background-color: yellowgreen;
+        transform: rotate(450deg);
+        left:85%;
+    }
+
+    50%{
+        background-color: olive;
+        transform: rotate(500deg);
+        left:95%;
+    }
+
+    55%{
+        background-color:gold;
+        transform: rotate(550deg);
+        left:105%;
+    }
+}
+
+
+
+
+
+/* The animation code */
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  
+  /* The element to apply the animation to */
+  .box {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 150px;
+    animation-iteration-count: infinite;
+
+  }
